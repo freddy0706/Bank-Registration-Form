@@ -9,15 +9,111 @@
     
 <form>
     <label for="fname">First Name:</label>
-    <input type="text" name="fname" placeholder="Enter first name">
+    <input type="text" name="fname" placeholder="Enter first name" required>
 
     <br><br>
     <label for="lname">Last Name:</label>
-    <input type="text" name="lname" placeholder="Enter last name">
+    <input type="text" name="lname" placeholder="Enter last name" required>
 
     <br><br> 
     <label for="Email">Email:</label>
-    <input type="text" name="Email" placeholder="Email">
+    <input type="email" name="Email" placeholder="Email" required>
+
+    <br><br>
+    <label for="Phone Number">Phone Number:</label>
+    <input type="tel" name="Phone Number" placeholder="Phone Number">
+
+    <br><br>
+    <label for="Password">Password:</label>
+    <input type="password" name="Password" placeholder="Password">
+
+    <br><br>
+    <label for="Confirm Password">Confirm Password:</label>
+    <input type="password" name="Confirm Password" placeholder="Confirm Password">
+
+    <br><br>
+    <label for="Mother's Maiden name">Mother's Maiden Name:</label>
+    <input type="text" name="Mother's Maiden Name" placeholder="Mother's Maiden Name">
+
+    <br><br>
+    <label for="BVN">BVN:</label>
+    <input type="text" name="BVN" placeholder="BVN">
+
+    <br><br>
+    <label for="Account Name">Account Name:</label>
+    <input type="text" name="Account Name" placeholder="Account Name">
+
+    <br><br>
+    <label for="Account Number">Account Number:</label>
+    <input type="text" name="Account Number" placeholder="Account Number">
+
+    <br><br>
+    <label for="Account type">Account type:</label>
+    <input type="radio" name="Account Type" required/>Savings 
+    <input type="radio" name="Account Type" required/>Current
+    <input type="radio" name="Account Type" required/>Domicilliary
+     
+    <br><br>
+    <label for="Nationality">Nationality:</label>
+    <select name="Nationality" id="Nationality">
+        <option value="Nigeria">Nigeria</option>
+        <option value="Ghana">Ghana</option>
+        <option value="Togo">Togo</option>
+        <option value="Benin">Benin</option>
+        <option value="Cameroon">Cameroon</option>
+    </select>
+
+    <br><br>
+    <label for="State of origin">State of Origin:</label>
+    <select name="State of Origin" id="State of origin">
+        <option value="Abia">Abia</option>
+        <option value="Adamawa">Adamawa</option>
+        <option value="Awka Ibom">Akwa Ibom</option>
+        <option value="Bauchi">Bauchi</option>
+        <option value="Bayelsa">Bayelsa</option>
+        <option value="Benue">Benue</option>
+        <option value="Borno">Borno</option>
+        <option value="Cross River">Cross River</option>
+        <option value="Delta">Delta</option>
+        <option value="Ebonyi">Ebonyi</option>
+        <option value="Edo">Edo</option>
+    </select>
+
+    <br><br>
+    <label for="Residential Address">Residential Address:</label>
+    <input type="text" name="Residential Address" placeholder="Residential Address">
+
+    <br><br>
+     <label for="DOB">Date of Birth</label>
+     <input type="date" name="DOB" id="DOB">
+
+    <br><br>
+    <label for="gender">Gender</label>
+    <input type="radio" name="Gender" required/>Male
+    <input type="radio" name="Gender" required/>Female
+    <input type="radio" name="Gender" required/>Rather Not Say
+
+    <br><br>
+    <label for="marital status">Marital Status</label>
+    <input type="radio" name="Gender" required/>Single
+    <input type="radio" name="Gender" required/>Married
+    <input type="radio" name="Gender" required/>Divorced
+
+
+
+    <br><br>
+    <label for="smedia">LinkedIn:</label>
+    <input type="text" name="LinkedIn"required>
+
+    <br><br>
+    <label for="Description">Short Description:</label>
+    <textarea name="Description" id="" cols="30" rows="10"></textarea>
+
+
+
+     
+    <br><br>
+    <button type="submit">Submit</button>
 </form>
 
 </body>
