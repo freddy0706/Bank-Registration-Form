@@ -24,6 +24,12 @@
     <input type="tel" name="Phone Number" placeholder="Phone Number">
 
     <br><br>
+    <label for="Preferred Way to Contact You">Preferred Way to Contact You:</label><br>
+    <input type="checkbox" name="Preferred Way to Contact You" required/>Email
+    <input type="checkbox" name="Preferred Way to Contact You" required/>Telephone
+    <input type="checkbox" name="Preferred Way to Contact You" required/>Fax
+
+    <br><br>
     <label for="Password">Password:</label>
     <input type="password" name="Password" placeholder="Password">
 
@@ -52,6 +58,12 @@
     <input type="radio" name="Account Type" required/>Savings 
     <input type="radio" name="Account Type" required/>Current
     <input type="radio" name="Account Type" required/>Domicilliary
+
+    <br><br>
+    <label for="Preferred Card Type">Preferred Card Type:</label>
+    <input type="radio" name="Account Type" required/>Visa 
+    <input type="radio" name="Account Type" required/>Verve
+    <input type="radio" name="Account Type" required/>Mastercard
      
     <br><br>
     <label for="Nationality">Nationality:</label>
@@ -106,7 +118,11 @@
     <br><br>
     <label for="Description">Short Description:</label>
     <textarea name="Description" id="" cols="30" rows="10"></textarea>
-     
+
+    <br><br>
+    <label for="Upload Passport">Upload Passport:</label>
+    <input type="file" name="Passport"required><span><b>Should not Exceed 5mb</b></span>
+
     <br><br>
     <button type="submit">Submit</button>
 </form>
